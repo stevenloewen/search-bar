@@ -14,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <SearchBar inputChange = {inputChange}/>
-      <CountryList searchCountry = {searchCountry}/>
-      
+      <CountryList searchCountry = {searchCountry}/>      
     </div>
   );
 }

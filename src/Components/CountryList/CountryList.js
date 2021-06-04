@@ -18,8 +18,7 @@ function CountryList({searchCountry}) {
                         {country.Country}
                     </li>
                 )
-            })}
-            
+            })}            
         </ul>
     );
 }
