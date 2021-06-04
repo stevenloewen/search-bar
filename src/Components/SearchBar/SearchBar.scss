@@ -1,0 +1,14 @@
+.search-bar{
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    width: 18.75rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #000000;
+
+    &:focus{
+        outline: none;
+        border: 0.125rem solid #007FFF;
+        border-radius: 0.5rem;
+    }
+}
